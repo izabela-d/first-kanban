@@ -1,0 +1,17 @@
+body { background-image: url("../images/background.png"); background-size: cover; color: white; text-align: center; }
+
+.board { text-transform: uppercase; width: 100%; }
+
+.board .create-column { font-size: 18px; border: 2px solid #993366; border-radius: 5px; background-color: #993366; color: white; }
+
+.board .column-container { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 10px; }
+
+.board .column-container .column { height: 80vh; margin: 15px; border-right: 1px solid #993366; border-left: 1px solid #993366; padding: 0 8px; }
+
+.board .column-container .column ul { text-transform: capitalize; font-size: 18px; list-style-type: none; padding: 0; min-height: 70vh; }
+
+.board .column-container .column ul .card { text-align: center; margin-bottom: 10px; min-width: 200px; border: 1px solid #993366; border-radius: 20px; background-color: #993366; }
+
+.board .column-container .column ul .card .btn-delete { background-color: white; color: #993366; }
+
+.board .column-container .column button { font-size: 13px; border: 2px solid #993366; border-radius: 5px; background-color: #993366; color: white; margin-top: 10px; }
