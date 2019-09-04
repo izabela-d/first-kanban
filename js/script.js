@@ -92,11 +92,11 @@ document.addEventListener('DOMContentLoaded', function() {
 		var el = document.getElementById(id);
 	  	var sortable = Sortable.create(el, {
 
-		  group: {
-		    name: 'kanban',
-		    put:true,
-		       pull: true,
-		  },
+			group: {
+		    	name: 'kanban',
+		    	put:true,
+		    	pull: true,
+		  	},
 	    	sort: true
 	  	});
 	}
